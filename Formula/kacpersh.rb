@@ -1,7 +1,7 @@
 require 'formula'
 class Kacpersh < Formula
   homepage 'https://github.com/irth/kacpersh'
-  version '0.1'
+  version '1.0'
 
   if Hardware::CPU.arm?
     url 'https://github.com/irth/kacpersh/releases/download/v1.0/kacpersh.darwin.arm64'

@@ -1,7 +1,7 @@
 require 'formula'
 class Spa < Formula
   homepage 'https://github.com/irth/spa'
-  version '0.1'
+  version '1.0'
 
   if Hardware::CPU.arm?
     url 'https://github.com/irth/spa/releases/download/v1.0/spa.darwin.arm64'
